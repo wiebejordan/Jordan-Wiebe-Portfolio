@@ -11,23 +11,36 @@ const Landing = () => {
       
       <Grid.Row columns={2}>
       <Grid.Column>
+        <div class="project-image-wrapper">
+        <h2>ScaleHistory SLC</h2>
         <Image
          className='shslc-image' 
          as='a'
          size='big'
-         round
+         bordered
          href='https://scalehistoryslc.com'
          target='_blank' 
-         src='https://media-exp1.licdn.com/dms/image/C562DAQFNDEXMiaTA8w/profile-treasury-image-shrink_8192_8192/0?e=1599854400&v=beta&t=8LNQ-ybjsF6OyS8IV9TYFABRoMOmXBFEcDMB9WkinlQ' />
+         src='https://media-exp1.licdn.com/dms/image/C562DAQFNDEXMiaTA8w/profile-treasury-image-shrink_8192_8192/0?e=1599854400&v=beta&t=8LNQ-ybjsF6OyS8IV9TYFABRoMOmXBFEcDMB9WkinlQ'
+         srcSet='/images/wireframe/image.png 2x'
+          />
+         </div>
       </Grid.Column>
+
       <Grid.Column>
+        <div class="project-image-wrapper">
+ 					<h2>Events</h2>
         <Image
         className='events-image'
         as='a'
         size='big'
+        bordered
         href='http://google.com'
         target='_blank' 
-        src='https://media-exp1.licdn.com/dms/image/C562DAQEJljR7VOtqLQ/profile-treasury-image-shrink_1280_1280/0?e=1599854400&v=beta&t=kB2yV3R8eskF95R14l2FN9Hg418UN-0NEjS4w3LjY5Y' />
+        src='https://media-exp1.licdn.com/dms/image/C562DAQEJljR7VOtqLQ/profile-treasury-image-shrink_1280_1280/0?e=1599854400&v=beta&t=kB2yV3R8eskF95R14l2FN9Hg418UN-0NEjS4w3LjY5Y' 
+        srcSet='/images/wireframe/image.png 2x'
+        />
+ 					
+ 				</div>
       </Grid.Column>
       {/* <Grid.Column>
         <Image src='https://media-exp1.licdn.com/dms/image/C562DAQEjeJEuhie2VA/profile-treasury-image-shrink_1280_1280/0?e=1599854400&v=beta&t=Dj_GHYltwLtTLkJHHSmz8UGsWhBFT3QQlWKlCiSGHTc' />
