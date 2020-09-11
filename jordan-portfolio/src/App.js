@@ -1,25 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Landing from './Components/Landing'
+import 'semantic-ui-css/semantic.min.css'
+import {Segment, Container, Grid} from 'semantic-ui-react'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="App">
+      <Grid.Row columns={1}>
+        <Grid.Column>
+          <h1>Jordan Wiebe</h1>
+        </Grid.Column>
+      </Grid.Row>
+      <Segment>
+      
+      <Landing/>
+      </Segment>
+    </Container>
   );
 }
 
