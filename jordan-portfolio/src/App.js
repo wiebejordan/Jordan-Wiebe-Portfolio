@@ -15,7 +15,7 @@ function App() {
           size='medium' 
           centered
           circular
-          src={headshot}>
+          src='https://i.imgur.com/uIaYZDE.png'>
             
           </Image>
         </Grid.Column>
