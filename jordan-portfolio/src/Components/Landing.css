@@ -17,7 +17,7 @@
 }
 
 .events-image:hover{
-  filter: brightness(.50);
+  filter: brightness(.25);
    box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16);
   
 }
@@ -42,4 +42,25 @@
   visibility: hidden;
   z-index: 2;
   transition: all ease-in-out .2s;
+}
+
+.project-image-wrapper:hover > h5 {
+  visibility: visible;
+}
+
+.project-image-wrapper > h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  visibility: hidden;
+  z-index: 2;
+  transition: all ease-in-out .2s;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

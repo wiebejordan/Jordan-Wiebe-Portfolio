@@ -8,13 +8,18 @@ const Landing = () => {
   return(
     <div>
     <Grid>
-      
+      <Grid.Row columns={1}>
+        <Grid.Column>
+          <h1>Projects</h1>
+        </Grid.Column>
+      </Grid.Row>
       <Grid.Row columns={2}>
       <Grid.Column>
         <div class="project-image-wrapper">
         <h2>ScaleHistory SLC</h2>
+        <h5>React, Redux, Socket.io</h5>
         <Image
-         className='shslc-image' 
+         className='events-image' 
          as='a'
          size='big'
          bordered
@@ -29,6 +34,7 @@ const Landing = () => {
       <Grid.Column>
         <div class="project-image-wrapper">
  					<h2>Events</h2>
+           <h5>React, Redux, Firebase, Semantic UI</h5>
         <Image
         className='events-image'
         as='a'
