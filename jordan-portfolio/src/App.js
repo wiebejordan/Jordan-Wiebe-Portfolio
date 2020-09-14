@@ -4,7 +4,7 @@ import './App.css';
 import Landing from './Components/Landing'
 import 'semantic-ui-css/semantic.min.css'
 import {Segment, Container, Grid, Image, List} from 'semantic-ui-react'
-import headshot from '/Users/jordan/devmountain/basecamp/portfolio/jordan-portfolio/src/Components/headshot.png'
+
 
 function App() {
   return (
