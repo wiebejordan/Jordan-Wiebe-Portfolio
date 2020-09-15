@@ -30,13 +30,13 @@ function App() {
 
       <Grid.Row columns={1}>
         <Grid.Column>
-          <div className='list'>
+          <div className='landing-list'>
           <List >
             <List.Item icon='marker' content='Salt Lake City, UT' />
           
             <List.Item
             icon='mail'
-            content={<a href='wiebe.jordan@yahoo.com'>wiebe.jordan@yahoo.com</a>}
+            content={<a href='wiebe.jordan@yahoo.com'>wiebe.jordan@yahoo.com</a> }
             />
     
             <List.Item

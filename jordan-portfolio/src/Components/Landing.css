@@ -59,8 +59,12 @@
   transition: all ease-in-out .2s;
 }
 
-.list{
+.landing-list{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.landing-list .content{
+  width: auto !important;
 }
