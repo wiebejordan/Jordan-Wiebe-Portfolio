@@ -44,11 +44,11 @@
   transition: all ease-in-out .2s;
 }
 
-.project-image-wrapper:hover > h5 {
+.project-image-wrapper:hover > h6 {
   visibility: visible;
 }
 
-.project-image-wrapper > h5 {
+.project-image-wrapper > h6 {
   position: absolute;
   top: 50%;
   left: 50%;
