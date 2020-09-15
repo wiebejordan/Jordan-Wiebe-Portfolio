@@ -40,7 +40,7 @@ const Landing = () => {
         as='a'
         size='big'
         bordered
-        href='http://google.com'
+        href='https://socailevent.web.app/'
         target='_blank' 
         src='https://media-exp1.licdn.com/dms/image/C562DAQEJljR7VOtqLQ/profile-treasury-image-shrink_1280_1280/0?e=1599854400&v=beta&t=kB2yV3R8eskF95R14l2FN9Hg418UN-0NEjS4w3LjY5Y' 
         srcSet='/images/wireframe/image.png 2x'
