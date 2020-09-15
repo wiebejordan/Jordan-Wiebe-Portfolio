@@ -6,10 +6,11 @@ import 'semantic-ui-css/semantic.min.css'
 import {Segment, Container, Grid, Image, List} from 'semantic-ui-react'
 
 
+
 function App() {
   return (
     <Container className="App">
-      <Grid.Row columns={1}>
+      <Grid columns={1}>
         <Grid.Column>
         <Image
           size='medium' 
@@ -19,7 +20,7 @@ function App() {
             
           </Image>
         </Grid.Column>
-      </Grid.Row>
+      </Grid>
       
       <Grid.Row columns={1}>
         <Grid.Column>
