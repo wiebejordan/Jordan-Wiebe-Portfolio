@@ -7,8 +7,8 @@ const Landing = () => {
 
   return(
     <div>
-    <Grid>
-      <Grid.Row columns={1}>
+    <Grid stackable columns={1}>
+      <Grid.Row>
         <Grid.Column>
           <h1>Projects</h1>
         </Grid.Column>
