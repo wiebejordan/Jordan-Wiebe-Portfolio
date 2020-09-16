@@ -19,7 +19,7 @@ const Landing = () => {
       <Grid.Row  >
       <Grid.Column>
         <div class="project-image-wrapper">
-        <h2>ScaleHistory SLC</h2>
+        <h2>ScaleHistorySLC</h2>
         <h6>React, Redux, Socket.io</h6>
         <Image
          className='events-image' 

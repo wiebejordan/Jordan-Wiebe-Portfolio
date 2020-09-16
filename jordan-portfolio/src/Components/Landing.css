@@ -68,3 +68,9 @@
 .landing-list .content{
   width: auto !important;
 }
+
+@media(max-width: 454px){
+  .project-image-wrapper > h2{
+    font-size: small;
+  }
+}
