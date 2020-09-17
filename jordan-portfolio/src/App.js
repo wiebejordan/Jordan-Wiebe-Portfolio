@@ -7,7 +7,7 @@ import Contact from './Components/Contact'
 import Skills from './Components/Skills'
 import AboutMe from './Components/AboutMe'
 import 'semantic-ui-css/semantic.min.css'
-import {Segment, Container, Grid, Image, List, Menu} from 'semantic-ui-react'
+import {Segment, Container, Grid, Image, Menu, Header} from 'semantic-ui-react'
 
 
 
@@ -38,7 +38,12 @@ class App extends Component {
       
       <Grid.Row columns={1}>
         <Grid.Column>
-          <h1>Jordan Wiebe</h1>
+          <Header size='huge'>
+            Jordan Wiebe
+              <Header.Subheader>
+                Web Developer/Video Editor 
+              </Header.Subheader>
+            </Header>
         </Grid.Column>
       </Grid.Row>
 

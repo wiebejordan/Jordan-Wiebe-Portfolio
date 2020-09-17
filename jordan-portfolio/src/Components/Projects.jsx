@@ -17,7 +17,7 @@ const Projects = () => {
       <Grid.Column>
         <div className="project-image-wrapper">
         <h2>ScaleHistorySLC</h2>
-        <h6>React, Redux, Socket.io</h6>
+        <h6>React, Redux, Express</h6>
         <Image
          className='events-image' 
          size='big'
@@ -33,7 +33,7 @@ const Projects = () => {
       <Grid.Column>
         <div className="project-image-wrapper">
  					<h2>Events</h2>
-           <h6>React, Redux, Firebase, Semantic UI</h6>
+           <h6>React, Redux, Firebase</h6>
         <Image
         className='events-image'
         size='big'
@@ -79,7 +79,7 @@ const Projects = () => {
          className='events-image' 
          size='big'
          bordered
-         href='https://www.dropbox.com/h?preview=4stepsintroFINALV2.1.mp4'
+         href='https://www.dropbox.com/s/xi6va6ya0di5jap/4stepsintroFINALV2.1.mp4?dl=0'
          target='_blank' 
          src='https://i.imgur.com/g5tyu6S.png'
         

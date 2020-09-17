@@ -28,6 +28,8 @@ const Skills = () => {
     <List.Item>Semantic UI</List.Item>
     <List.Item>Mac OS</List.Item>
     </List>
+
+    
   )
 }
 
