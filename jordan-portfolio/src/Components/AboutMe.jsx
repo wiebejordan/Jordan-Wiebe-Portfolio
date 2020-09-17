@@ -7,7 +7,7 @@ const AboutMe = () => {
 
   return(
     <Container textAlign='justified'>
-    <Image src='https://i.imgur.com/IZiW1ST.jpg' size='small' floated='left' />
+    <Image src='https://i.imgur.com/IZiW1ST.jpg' size='tiny' floated='left' />
     <p>
       Hello! My name is Jordan! I'm from Ohio originally and moved to Salt Lake City six years ago to chase the snow, but I ended up settling down here in SLC. I am married to the love of my life and our seven month old daughter is the best thing ever!
     </p>

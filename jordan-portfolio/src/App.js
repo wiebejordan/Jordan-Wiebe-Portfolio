@@ -6,6 +6,7 @@ import Nav from './Components/Nav'
 import Contact from './Components/Contact'
 import Skills from './Components/Skills'
 import AboutMe from './Components/AboutMe'
+import Footer from './Components/Footer'
 import 'semantic-ui-css/semantic.min.css'
 import {Segment, Container, Grid, Image, Menu, Header} from 'semantic-ui-react'
 
@@ -103,6 +104,11 @@ class App extends Component {
         ? <Contact/>
         :null}
       </Segment>
+      
+      <footer>
+
+      <Footer/>
+      </footer>
       </Container>
     )
   }
