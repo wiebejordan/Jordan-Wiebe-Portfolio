@@ -41,7 +41,7 @@ class App extends Component {
           <Header size='huge'>
             Jordan Wiebe
               <Header.Subheader>
-                Web Developer/Video Editor 
+                Front End Web Developer/Video Editor 
               </Header.Subheader>
             </Header>
         </Grid.Column>

@@ -15,7 +15,7 @@ const AboutMe = () => {
     <p>I began my professional life in video production, though my interest in video began when I picked up a video camera to film my friends snowboarding. Eventually I created a brand called So Far So Good, which helped me to learn video editing and videography, brand development, social media management, design, and marketing.</p>
 
     <p>
-      I eventually had sharpened my skills well enough to work for Go Video Go and Foursteps.io as video editor and video director, respectively. I created videos and motion graphics for companies like 97th Floor, GamerSensei and Boeing.
+      Over a few years I sharpened my skills well enough to work for Go Video Go and Foursteps.io as video editor and video director, respectively. I created videos and motion graphics for companies like 97th Floor, GamerSensei and Boeing.
     </p>
 
     <p>
