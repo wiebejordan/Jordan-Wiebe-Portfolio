@@ -5,7 +5,7 @@ const Skills = () => {
 
 
   return(
-    <List celled horizontal size='large'>
+    <List bulleted horizontal size='large'>
     <List.Item>React</List.Item>
     <List.Item>Javascript</List.Item>
     <List.Item>HTML</List.Item>
