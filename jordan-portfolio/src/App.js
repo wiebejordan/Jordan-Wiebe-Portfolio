@@ -1,15 +1,29 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Landing from './Components/Landing'
+import Projects from './Components/Projects'
+import Nav from './Components/Nav'
+import Contact from './Components/Contact'
+import Skills from './Components/Skills'
+import AboutMe from './Components/AboutMe'
 import 'semantic-ui-css/semantic.min.css'
-import {Segment, Container, Grid, Image, List} from 'semantic-ui-react'
+import {Segment, Container, Grid, Image, List, Menu} from 'semantic-ui-react'
 
 
 
-function App() {
-  return (
-    <Container className="App">
+class App extends Component {
+  state = {
+    activeItem: 'aboutMe'
+  }
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+  render() {
+    const { activeItem } = this.state
+
+    return (
+      <Container className="App">
+        <Container className="App">
       <Grid columns={1}>
         <Grid.Column>
         <Image
@@ -28,36 +42,66 @@ function App() {
         </Grid.Column>
       </Grid.Row>
 
-      <Grid.Row columns={1}>
-        <Grid.Column>
-          <div className='landing-list'>
-          <List >
-            <List.Item icon='marker' content='Salt Lake City, UT' />
-          
-            <List.Item
-            icon='mail'
-            content={<a href='wiebe.jordan@yahoo.com'>wiebe.jordan@yahoo.com</a> }
-            />
-    
-            <List.Item
-            icon='linkedin'
-            content={<a href='https://www.linkedin.com/in/jordan-wiebe-54496b187/'>Linkdin</a>}
-            />
-
-            <List.Item
-            icon='github'
-            content={<a href='https://github.com/wiebejordan'>Github</a>}
-            />
-          </List>
-          </div>
-        </Grid.Column>
-      </Grid.Row>
-      <Segment>
-      
-      <Landing/>
-      </Segment>
+     
     </Container>
-  );
+      <Menu compact>
+  
+
+        <Menu.Item
+          name='aboutMe'
+          active={activeItem === 'aboutMe'}
+          onClick={this.handleItemClick}
+        >
+          About Me
+        </Menu.Item>
+
+        <Menu.Item
+          name='skills'
+          active={activeItem === 'skills'}
+          onClick={this.handleItemClick}
+        >
+          Skills
+        </Menu.Item>
+
+        <Menu.Item
+          name='projects'
+          active={activeItem === 'projects'}
+          onClick={this.handleItemClick}
+        >
+          Projects
+        </Menu.Item>
+
+        <Menu.Item
+          name='contactInfo'
+          active={activeItem === 'contactInfo'}
+          onClick={this.handleItemClick}
+        >
+          Contact Info
+        </Menu.Item>
+      </Menu>
+
+      <Segment>
+
+        {this.state.activeItem === 'aboutMe'
+        ? <AboutMe/>
+        :null}
+
+        {this.state.activeItem === 'skills'
+        ? <Skills/>
+        :null}
+
+        {this.state.activeItem === 'projects'
+        ? <Projects/>
+        :null}
+
+        {this.state.activeItem === 'contactInfo'
+        ? <Contact/>
+        :null}
+      </Segment>
+      </Container>
+    )
+  }
 }
+    
 
 export default App;
