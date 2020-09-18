@@ -19,7 +19,7 @@ const Contact = () => {
     
             <List.Item
             icon='linkedin'
-            content={<a href='https://www.linkedin.com/in/jordan-wiebe-54496b187/'>Linkdin</a>}
+            content={<a href='https://www.linkedin.com/in/jordan-wiebe-54496b187/'>Linkedin</a>}
             />
 
             <List.Item

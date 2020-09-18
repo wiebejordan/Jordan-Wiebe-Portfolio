@@ -82,7 +82,7 @@ class App extends Component {
           active={activeItem === 'contactInfo'}
           onClick={this.handleItemClick}
         >
-          Contact Info
+          Contact 
         </Menu.Item>
       </Menu>
 
