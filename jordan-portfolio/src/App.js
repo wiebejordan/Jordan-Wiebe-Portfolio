@@ -7,6 +7,7 @@ import Contact from './Components/Contact'
 import Skills from './Components/Skills'
 import AboutMe from './Components/AboutMe'
 import Footer from './Components/Footer'
+import Certifications from './Components/Certifications'
 import 'semantic-ui-css/semantic.min.css'
 import {Segment, Container, Grid, Image, Menu, Header} from 'semantic-ui-react'
 
@@ -36,6 +37,7 @@ class App extends Component {
           </Image>
         </Grid.Column>
       </Grid>
+
       
       <Grid.Row columns={1}>
         <Grid.Column>
@@ -50,7 +52,7 @@ class App extends Component {
 
      
     </Container>
-      <Menu compact>
+      <Menu  compact>
   
 
         <Menu.Item
@@ -77,6 +79,14 @@ class App extends Component {
           Projects
         </Menu.Item>
 
+        {/* <Menu.Item
+          name='cert'
+          active={activeItem === 'cert'}
+          onClick={this.handleItemClick}
+        >
+          Certifications
+        </Menu.Item> */}
+
         <Menu.Item
           name='contactInfo'
           active={activeItem === 'contactInfo'}
@@ -102,6 +112,10 @@ class App extends Component {
 
         {this.state.activeItem === 'contactInfo'
         ? <Contact/>
+        :null}
+
+        {this.state.activeItem === 'cert'
+        ? <Certifications/>
         :null}
       </Segment>
       

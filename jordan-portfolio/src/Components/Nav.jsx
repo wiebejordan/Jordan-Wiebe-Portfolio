@@ -10,7 +10,7 @@ class Nav extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu compact>
+      <Menu stackable >
         <Menu.Item
           name='home'
           active={activeItem === 'home'}
