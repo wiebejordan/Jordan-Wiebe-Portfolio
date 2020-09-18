@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiebejordan/Jordan-Wiebe-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiebejordan/Jordan-Wiebe-Portfolio/issues"
+  },
+  "homepage": "https://github.com/wiebejordan/Jordan-Wiebe-Portfolio#readme"
+}
