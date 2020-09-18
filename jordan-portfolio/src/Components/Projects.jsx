@@ -55,7 +55,7 @@ const Projects = () => {
       <Grid stackable centered columns={2}>
       <Grid.Row centered  >
       
-      <Grid.Column centered>
+      <Grid.Column >
         <div className="project-image-wrapper">
         <h2>Boeing QoE</h2>
         <h6>After Effects</h6>

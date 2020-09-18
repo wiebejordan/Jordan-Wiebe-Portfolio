@@ -16,13 +16,13 @@ const AboutMe = () => {
     <p>
       Over a few years I sharpened my skills well enough to work for Go Video Go and Foursteps.io as video editor and video director, respectively. I created videos and motion graphics for companies like 97th Floor, GamerSensei and Boeing.
     </p>
-    <Image src='https://i.imgur.com/IZiW1ST.jpg' size='small' floated='left' />
 
     <p>
       I decided to add to my skills by learning web development through DevMountain. With Covid-19 impacting hiring across industries, I wanted to make sure I had more than one viable skill under my belt. I have since created responsive full stack web applications from the ground up, both on my own and in a remote group setting.
     </p>
 
     <p>
+    {/* <Image src='https://i.imgur.com/IZiW1ST.jpg' size='tiny' floated='left' /> */}
       Now as a full stack web developer I can bring design, branding, and multi media implementation skills to boost a startup or refine the web presence of already established companies.
     </p>
 
