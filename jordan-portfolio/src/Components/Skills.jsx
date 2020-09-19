@@ -30,16 +30,6 @@ const Skills = () => {
     <List.Item>Mac OS</List.Item>
     </List>
 
-    <Grid centered columns={1}>
-       <Image 
-         size='small'
-         bordered
-         href='https://www.youracclaim.com/badges/dd8f1d1d-7b6a-49d5-9495-2f917f80bf09/public_url'
-         target='_blank' 
-         src='https://i.imgur.com/dG7E9oI.png'
-        
-          />
-        </Grid>
     </div>
     
   )
