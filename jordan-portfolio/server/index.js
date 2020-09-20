@@ -5,7 +5,6 @@ const app = express()
 
 app.use(express.json())
 
-app.use(require('prerender-node').set('prerenderToken', 'T37f8mmTrkgiTtu79rEa'));
 
 app.use(express.static(`${__dirname}/../build`))
 
