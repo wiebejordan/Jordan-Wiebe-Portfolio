@@ -41,7 +41,7 @@ class App extends Component {
       
       <Grid.Row columns={1}>
         <Grid.Column>
-          <Header size='huge'>
+          <Header size='huge' color='blue'>
             Jordan Wiebe
               <Header.Subheader>
                 Front End Web Developer/Video Editor 
