@@ -105,6 +105,23 @@ const Projects = () => {
  					
  				</div>
       </Grid.Column>
+
+      <Grid.Column>
+        <div className="project-image-wrapper">
+ 					<h2>Slow Start</h2>
+           <h6>FCPX</h6>
+        <Image
+        className='events-image'
+        size='big'
+        bordered
+        href='https://vimeo.com/249352890'
+        target='_blank' 
+        src='https://i.imgur.com/qeCGcnN.png' 
+        
+        />
+ 					
+ 				</div>
+      </Grid.Column>
       </Grid.Row>
 
       </Grid>
