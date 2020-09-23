@@ -36,7 +36,8 @@ const Projects = () => {
       <Modal.Content image>
         <Image size='medium' src='https://i.imgur.com/0Y5rdgH.png' wrapped />
         <Modal.Description>
-          <Header>React/Redux/Express/PostgreSQL/Socket.io/Nodemailer</Header>
+          <Header>React/Redux/Express/PostgreSQL</Header>
+          
           <p>
           In less than three weeks, I developed a fully responsive website from the ground up to allow players to register for tabletop wargaming events, chat with teammates and view their armies.
 
@@ -81,7 +82,7 @@ const Projects = () => {
       <Modal.Content image>
         <Image size='medium' src='https://i.imgur.com/Xy0ZYrd.png' wrapped />
         <Modal.Description >
-          <Header>React/Redux/Express/Firebase/Socket.io</Header>
+          <Header>React/Redux/Express/Firebase</Header>
           <p>
           Developed a web app alongside a team of five developers in a remote setting that helps users find concerts, parties, get togethers and other events and connect with other people attending those events.
 
