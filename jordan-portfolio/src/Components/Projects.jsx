@@ -151,6 +151,22 @@ const Projects = () => {
       </Grid.Column>
 
 
+      <Grid.Column>
+        <div className="project-image-wrapper">
+ 					<h4>Long Island Shark Collaborative</h4>
+           <h6>Adobe Premiere</h6>
+        <Image
+        className='events-image'
+        size='big'
+        bordered
+        href='https://youtu.be/oIuZGqwFVzk'
+        target='_blank' 
+        src='https://i.imgur.com/r6FgoYM.jpg' 
+        
+        />
+ 					
+ 				</div>
+      </Grid.Column>
       
       <Grid.Column>
         <div className="project-image-wrapper">
@@ -169,22 +185,6 @@ const Projects = () => {
  				</div>
       </Grid.Column>
 
-      <Grid.Column>
-        <div className="project-image-wrapper">
- 					<h2>Slow Start</h2>
-           <h6>FCPX</h6>
-        <Image
-        className='events-image'
-        size='big'
-        bordered
-        href='https://vimeo.com/249352890'
-        target='_blank' 
-        src='https://i.imgur.com/qeCGcnN.png' 
-        
-        />
- 					
- 				</div>
-      </Grid.Column>
       </Grid.Row>
 
       </Grid>
