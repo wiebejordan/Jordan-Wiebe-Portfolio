@@ -6,7 +6,8 @@ import 'semantic-ui-css/semantic.min.css'
 
 const Projects = () => {
   const [open, setOpen] = React.useState(false),
-        [openTwo, setOpenTwo] = React.useState(false);
+        [openTwo, setOpenTwo] = React.useState(false),
+        [openThree, setOpenThree] = React.useState(false);
   return(
     <div>
       
@@ -60,6 +61,53 @@ const Projects = () => {
     </Modal>
          </div>
       </Grid.Column>
+
+      <Grid.Column>
+        <div className="project-image-wrapper">
+        <h2>BA Order Dice</h2>
+        <h6>React, Javascript, React Hooks</h6>
+        <Modal
+      onClose={() => setOpenThree(false)}
+      onOpen={() => setOpenThree(true)}
+      open={openThree}
+      trigger={<Image
+        className='events-image' 
+        size='big'
+        bordered
+        target='_blank' 
+        src='https://i.imgur.com/63IMnuL.png'
+       
+         />}
+    >
+      <Modal.Header>BA Order Dice App</Modal.Header>
+      <Modal.Content image>
+        <Image size='medium' src='https://i.imgur.com/63IMnuL.png' wrapped />
+        <Modal.Description>
+          <Header>React/Javascript/React Hooks</Header>
+          
+          <p>
+          Bolt Action is a tabletop game in which each game piece is represented by a colored dice. The dice from both players are put in a bag and drawn randomly to determine who's turn it is. This is not Covid-19 or social distance friendly, so I created a responsive app that mimics these mechanics.  
+
+          </p>
+          <p>- Using React Hooks and Javascript array methods, players can choose how many dice they want in the "bag," and using the Math.random function, dice are randomly pulled from the bag.</p>
+          <p>- The app tracks how many of each player's dice are in the bag, how many they have in total, and allows the user to take certain actions for removing dice from the game or from the bag per the game's rules.</p>
+        </Modal.Description>
+      </Modal.Content>
+      <Modal.Actions>
+        <Button color='black' onClick={() => setOpenThree(false)}>
+          exit
+        </Button>
+        <Button
+          color='blue'
+          content="view website"
+          onClick={() => setOpenThree(false)}
+          href='http://baorderdiceapp.com/'
+        />
+      </Modal.Actions>
+    </Modal>
+         </div>
+      </Grid.Column>
+
 
       <Grid.Column>
         <div className="project-image-wrapper">
