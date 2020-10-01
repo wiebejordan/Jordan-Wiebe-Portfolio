@@ -91,7 +91,7 @@ const Projects = () => {
           </p>
           <p>- Using React Hooks and Javascript array methods, players can choose how many dice they want in the "bag," and using the Math.random function, dice are randomly pulled from the bag.</p>
           <p>- The app tracks how many of each player's dice are in the bag, how many they have in total, and allows the user to take certain actions for removing dice from the game or from the bag per the game's rules.</p>
-          <p>If the user makes a mistake, he or she can undo that action and restore previous state thanks to Redux</p>
+          <p>- If the user makes a mistake, he or she can undo that action and restore previous state thanks to Redux.</p>
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>

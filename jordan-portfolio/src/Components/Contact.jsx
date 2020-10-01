@@ -16,6 +16,9 @@ const Contact = () => {
             icon='mail'
             content={<a href='wiebe.jordan@yahoo.com'>wiebe.jordan@yahoo.com</a> }
             />
+
+          <List.Item icon='file alternate outline' content={<a href='https://docs.google.com/document/d/14RAdRixaZCLoPRA-Ebv-mbGNRxdp13_1Q0l9oUK-8P4/edit?usp=sharing'>Resume</a>} />
+          
     
             <List.Item
             icon='linkedin'

@@ -28,7 +28,9 @@ const AboutMe = () => {
 
     <p>I look forward to working with you! </p>
 
-    <p>Jordan</p>
+    <p><i>Jordan</i></p>
+
+    <p>View my resume <a href='https://docs.google.com/document/d/14RAdRixaZCLoPRA-Ebv-mbGNRxdp13_1Q0l9oUK-8P4/edit?usp=sharing'>here</a></p>
     </Container>
   )
 }
