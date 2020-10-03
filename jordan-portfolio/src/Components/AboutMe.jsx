@@ -8,13 +8,13 @@ const AboutMe = () => {
   return(
     <Container textAlign='justified'>
     <p>
-      Hello! My name is Jordan! I'm originally from Ohio but I moved to Salt Lake City six years ago to chase the snow, and I ended up settling down for good here in SLC. I am married to the love of my life and our seven month old daughter is the best thing ever!
+      As a DevMountain Certified Web Developer graduate, I am experienced in creating and maintaining full stack web apps from the ground up. I am proficient in Javascript, React, Node, Express, SQL and more! To add to my web development tool belt, I have years of professional experience in digital marketing and video production, motion graphics production and implementation using programs such as Final Cut Pro, Adobe After Effects and Premiere. I have been on the ground floor of tech start ups as well as on teams in established companies.         
     </p>
 
-    <p>I began my professional life in video production, though my interest in video began when I picked up a camera to film my friends snowboarding. Eventually I created a brand called So Far So Good, which helped me to learn video editing and videography, brand development, social media management, design, and marketing.</p>
+    <p>I began my professional life in video production, though my interest in video started early on when I picked up my dad's  video camera to make movies with my siblings. As I got older I focused my passion for video into creating snowboarding films, and eventually I created a brand called So Far So Good, which inspired me to learn video editing and videography, brand development, social media management, design, and marketing.</p>
 
     <p>
-      Over a few years I sharpened my skills well enough to work for Go Video Go and Foursteps.io as video editor and video director, respectively. I created videos and motion graphics for companies like 97th Floor, GamerSensei and Boeing.
+      Over a few years I sharpened my skills enough to work for Go Video Go and Foursteps.io as video editor and video director, respectively. While working for Foursteps.io, a financial planning startup, I rose to the video director position where I was directly responsible for creating the company's video and motion graphic content for digital marketing. While I was employed at Go Video Go I created videos and motion graphics for companies like 97th Floor, GamerSensei and Boeing.
     </p>
 
     <p>
@@ -22,7 +22,6 @@ const AboutMe = () => {
     </p>
 
     <p>
-    {/* <Image src='https://i.imgur.com/IZiW1ST.jpg' size='tiny' floated='left' /> */}
       Now as a full stack web developer I can bring design, branding, and multi media implementation skills to boost a startup or refine the web presence of already established companies.
     </p>
 
