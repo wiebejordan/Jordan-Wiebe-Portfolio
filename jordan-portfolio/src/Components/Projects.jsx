@@ -7,7 +7,8 @@ import 'semantic-ui-css/semantic.min.css'
 const Projects = () => {
   const [open, setOpen] = React.useState(false),
         [openTwo, setOpenTwo] = React.useState(false),
-        [openThree, setOpenThree] = React.useState(false);
+        [openThree, setOpenThree] = React.useState(false),
+        [openFour, setOpenFour] = React.useState(false);
   return(
     <div>
       
@@ -109,6 +110,55 @@ const Projects = () => {
          </div>
       </Grid.Column>
 
+
+      <Grid.Column>
+        <div className="project-image-wrapper">
+ 					<h2>Suunto 9</h2>
+           <h6>HTML, CSS, Javascript</h6>
+           <Modal
+      onClose={() => setOpenFour(false)}
+      onOpen={() => setOpenFour(true)}
+      open={openFour}
+      trigger={<Image
+        className='events-image'
+        size='big'
+        bordered
+        target='_blank' 
+        src='https://i.imgur.com/CH8M7h9.jpg' 
+        
+        />}
+    >
+      <Modal.Header inverted>Suunto 9</Modal.Header>
+      <Modal.Content inverted style={{backgroundColor: 'black'}} scrolling>
+        <Modal.Description >
+          <Header inverted>HTML/CSS/Javascript</Header>
+          <b style={{color: 'white'}}>
+          I designed a product page for the Suunto 9 sports watch from a short script using HTML, CSS and Javascript.
+          The webpage is fully responsive and includes a photo slideshow that also highlights different brand icons.
+          </b>
+          
+        
+        </Modal.Description>
+        <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/l66IXMs.png' wrapped />
+        <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/htfTtxL.png' wrapped />
+        <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/JLIxigG.png' wrapped />
+        <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/SstWkpQ.png' wrapped />
+      </Modal.Content>
+      <Modal.Actions>
+        <Button color='black' onClick={() => setOpenFour(false)}>
+          exit
+        </Button>
+        {/* <Button
+          color='blue'
+          content="view website"
+          onClick={() => setOpenTwo(false)}
+          href='https://socailevent.web.app/'
+        /> */}
+      </Modal.Actions>
+    </Modal>
+ 					
+ 				</div>
+      </Grid.Column>
 
       <Grid.Column>
         <div className="project-image-wrapper">
