@@ -148,12 +148,12 @@ const Projects = () => {
         <Button color='black' onClick={() => setOpenFour(false)}>
           exit
         </Button>
-        {/* <Button
+        <Button
           color='blue'
-          content="view website"
+          content="view on CodeSandbox"
           onClick={() => setOpenTwo(false)}
-          href='https://socailevent.web.app/'
-        /> */}
+          href='https://codesandbox.io/s/objective-goldwasser-op711'
+        />
       </Modal.Actions>
     </Modal>
  					
