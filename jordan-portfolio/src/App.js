@@ -39,7 +39,7 @@ class App extends Component {
       </Grid>
 
       
-      <Grid.Row columns={1}>
+      <Grid.Row columns={1} style={{marginBottom: '15px'}}>
         <Grid.Column>
           <Header size='huge' color='blue'>
             Jordan Wiebe

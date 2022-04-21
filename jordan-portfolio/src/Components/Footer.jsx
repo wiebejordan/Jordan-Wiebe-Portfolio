@@ -11,7 +11,7 @@ const Footer = () => {
          target='_blank' 
          src='https://i.imgur.com/dG7E9oI.png'
          /> 
-      Jordan Wiebe 9/17/2020
+      Jordan Wiebe 4/17/2022
     </Container>
   )
 }

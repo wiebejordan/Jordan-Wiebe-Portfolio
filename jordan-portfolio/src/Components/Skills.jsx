@@ -8,6 +8,7 @@ const Skills = () => {
     <div>
     <List bulleted horizontal size='large'>
     <List.Item>React</List.Item>
+    <List.Item>Agile</List.Item>
     <List.Item>Javascript</List.Item>
     <List.Item>HTML</List.Item>
     <List.Item>CSS</List.Item>
@@ -15,11 +16,14 @@ const Skills = () => {
     <List.Item>RESTful API</List.Item>
     <List.Item>Node</List.Item>
     <List.Item>PostgreSQL</List.Item>
+    <List.Item>Docker</List.Item>
+    <List.Item>Cypress</List.Item>
+    <List.Item>GraphQL</List.Item>
     <List.Item>After Effects</List.Item>
     <List.Item>Final Cut Pro X</List.Item>
     <List.Item>Git & Github</List.Item>
-    <List.Item>Photoshop</List.Item>
     <List.Item>Mac OS</List.Item>
+    <List.Item>Linux</List.Item>
     </List>
 
     </div>
