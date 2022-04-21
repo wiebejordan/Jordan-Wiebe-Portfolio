@@ -19,6 +19,59 @@ const Projects = () => {
       <Grid.Row  >
       <Grid.Column>
         <div className="project-image-wrapper">
+ 					<h2>Fortress EHR</h2>
+           <h6>React/Redux/Chart.js</h6>
+           <Modal
+      onClose={() => setOpenTwo(false)}
+      onOpen={() => setOpenTwo(true)}
+      open={openTwo}
+      trigger={<Image
+        className='events-image'
+        size='big'
+        bordered
+        target='_blank' 
+        src='https://i.imgur.com/xsYAPNf.png' 
+        />}
+    >
+      <Modal.Header>Fortress EHR</Modal.Header>
+      <Modal.Content image>
+        <Image size='medium' src='https://i.imgur.com/xsYAPNf.png' wrapped />
+        <Modal.Description >
+          <Header>React/Redux/Express/MUI/Chart.js</Header>
+          <p>
+          Fortress is an electronic medical records application built for use in underdeveloped/underprivileged communities around the world. It tracks patients and their interactions with health professionals with a safe and secure system. Fortress is also designed to be used with the language(s) used in the areas it is deployed.
+
+          </p>
+          <p>- Uses a Heroku database with hashed user authentication.</p>
+          <p>- UI created with reusable Material UI components</p>
+          <p>
+          - Multiple auth levels give users different access to reading/writing patient records.
+          </p>
+          <p>- User inactivity timeout feature blurs screen and requires user password to protect patient confidentiality.</p>
+
+          <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/zB3S0TM.png' wrapped />
+        <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/5kv9VF8.png' wrapped />
+        <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/HHkTzDi.png' wrapped />
+        <Image style={{margin: '10px'}} size='huge' src='https://i.imgur.com/EkL5mHo.png' wrapped />
+        </Modal.Description>
+      </Modal.Content>
+      <Modal.Actions>
+        <Button color='black' onClick={() => setOpenTwo(false)}>
+          exit
+        </Button>
+        {/* <Button
+          color='blue'
+          content="view website"
+          onClick={() => setOpenTwo(false)}
+          href='https://socailevent.web.app/'
+        /> */}
+      </Modal.Actions>
+    </Modal>
+ 					
+ 				</div>
+      </Grid.Column>
+      <Grid.Column>
+        <div className="project-image-wrapper">
         <h2>ScaleHistorySLC</h2>
         <h6>React, Redux, Express</h6>
         <Modal
@@ -160,54 +213,7 @@ const Projects = () => {
  				</div>
       </Grid.Column>
 
-      <Grid.Column>
-        <div className="project-image-wrapper">
- 					<h2>Events</h2>
-           <h6>React, Redux, Firebase</h6>
-           <Modal
-      onClose={() => setOpenTwo(false)}
-      onOpen={() => setOpenTwo(true)}
-      open={openTwo}
-      trigger={<Image
-        className='events-image'
-        size='big'
-        bordered
-        target='_blank' 
-        src='https://i.imgur.com/Xy0ZYrd.png' 
-        
-        />}
-    >
-      <Modal.Header>Events</Modal.Header>
-      <Modal.Content image>
-        <Image size='medium' src='https://i.imgur.com/Xy0ZYrd.png' wrapped />
-        <Modal.Description >
-          <Header>React/Redux/Express/Firebase</Header>
-          <p>
-          Developed a web app alongside a team of five developers in a remote setting that helps users find concerts, parties, get togethers and other events and connect with other people attending those events.
-
-          </p>
-          <p>- Using Google Firebase, created a database using Google Firestore and connected it to React.</p>
-          <p>- Created styling and UI with Semantic UI</p>
-          <p>
-          - Users can login and register using secure authentication through our app or by using their Google profiles.
-          </p>
-        </Modal.Description>
-      </Modal.Content>
-      <Modal.Actions>
-        <Button color='black' onClick={() => setOpenTwo(false)}>
-          exit
-        </Button>
-        <Button
-          color='blue'
-          content="view website"
-          onClick={() => setOpenTwo(false)}
-          href='https://socailevent.web.app/'
-        />
-      </Modal.Actions>
-    </Modal>
- 					
- 				</div>
-      </Grid.Column>
+     
       </Grid.Row>
 
       </Grid>
@@ -225,7 +231,7 @@ const Projects = () => {
          className='events-image' 
          size='big'
          bordered
-         href='https://www.dropbox.com/s/m2wnesjmm19oeax/Boeing%20Quality%20of%20Excellence.mov?dl=0'
+         href='https://drive.google.com/file/d/1uXQe5qWl4IdrV5LZnLS14qPvhgNF4oQG/view?usp=sharing'
          target='_blank' 
          src='https://i.imgur.com/YY9uGtR.png'
         
@@ -241,7 +247,7 @@ const Projects = () => {
          className='events-image' 
          size='big'
          bordered
-         href='https://www.dropbox.com/s/xi6va6ya0di5jap/4stepsintroFINALV2.1.mp4?dl=0'
+         href='https://drive.google.com/file/d/1-1dDdsT6ZI8O-4FRmcRTLbeph23ddQPN/view?usp=sharing'
          target='_blank' 
          src='https://i.imgur.com/g5tyu6S.png'
         
@@ -275,7 +281,7 @@ const Projects = () => {
         className='events-image'
         size='big'
         bordered
-        href='https://www.dropbox.com/s/in7iao02jyw4qb3/Gamer%20Sensai%20V5%28V7%29.mov?dl=0'
+        href='https://drive.google.com/file/d/1loJO4jys5th5oGcukpWPOTF5-m_ePO2J/view?usp=sharing'
         target='_blank' 
         src='https://i.imgur.com/3aJr6fT.png' 
         
